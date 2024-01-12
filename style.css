@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Navbar */
 nav {
   width: 100vw;
   height: 100px;
@@ -23,4 +24,20 @@ ul>li {
 
 a {
   color: black;
+}
+
+/* Home */
+
+.home {
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem;
+  background-color: beige;
+}
+
+.home>h2,
+p {
+  margin: 5rem;
+  font-size: 18px;
 }
