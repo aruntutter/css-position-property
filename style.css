@@ -6,7 +6,6 @@
 
 /* Navbar */
 nav {
-  width: 100vw;
   height: 100px;
   background-color: darkgrey;
 }
@@ -18,7 +17,7 @@ ul {
 
 ul>li {
   display: inline-block;
-  padding: 10px 150px;
+  padding: 10px 140px;
   font-size: 22px;
 }
 
@@ -48,4 +47,20 @@ p {
   margin: 0 auto;
   padding: 5rem;
   background-color: cadetblue;
+}
+
+/* Box */
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: darkgrey;
 }
